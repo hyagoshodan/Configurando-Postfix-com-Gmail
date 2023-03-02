@@ -51,5 +51,5 @@ sudo systemctl restart postfix
 echo 'Corpo do Email' | mutt -s 'Assunto' seu_email@gmail.com
 ```
 
-## Veja também o meu script de automatização:
+## Veja também o meu script de automatização para este procedimento:
 https://github.com/hyagoshodan/Hermes

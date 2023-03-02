@@ -1,4 +1,4 @@
-# Configurando-Postfix:
+# Configurando Postfix com Gmail
 
 1. Abra o terminal e digite o seguinte comando para instalar o Postfix:
  ```ruby

@@ -42,5 +42,16 @@ sudo service postfix restart
 ```
 9. Realize um teste enviando um e-mail do Gmail. Utilize o comando sendmail para enviar um e-mail de teste com o seguinte conteúdo:
 ```ruby
-echo "Corpo da mensagem" | sendmail destinatario@exemplo.com
+sendmail user@example.com
 ```
+```ruby
+De: me@myhost.com 
+Para: user@example.com
+Olá, esta é uma mensagem de teste.
+```
+Finalize com: 
+```ruby
+.
+```
+
+

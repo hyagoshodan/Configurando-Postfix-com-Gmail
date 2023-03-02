@@ -48,10 +48,8 @@ sendmail user@example.com
 De: me@myhost.com 
 Para: user@example.com
 Olá, esta é uma mensagem de teste.
-```
-Finalize com: 
-```ruby
 .
 ```
+
 
 

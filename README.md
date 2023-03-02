@@ -11,10 +11,14 @@ Durante a instalação, você será solicitado a selecionar o tipo de configura�
 Em vez de usar a senha que você usa para entrar na sua caixa de entrada do Gmail, é melhor gerar uma senha de aplicativo que possa ser usada no lugar dela.
 
 3. Crie o arquivo /etc/postfix/sasl/sasl_passwd e adicione o seguinte conteúdo:
+``` ruby
 [smtp.gmail.com]:587 seu_email@gmail.com:sua_senha_de_app_seguros_do_gmail
+```
 
 4. Execute o seguinte comando no terminal para criar o arquivo de hash para sasl_passwd:
+``` ruby
 sudo postmap /etc/postfix/sasl/sasl_passwd
+``` 
 
 5. Para proteger a senha que está em texto simples, altere o proprietário e as permissões dos arquivos SASL da seguinte forma:
  ```ruby

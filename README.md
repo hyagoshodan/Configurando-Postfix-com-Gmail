@@ -38,7 +38,7 @@ smtp_sasl_security_options = noanonymous
 
 8. Reinicie o Postfix digitando o seguinte comando no terminal:
 ```ruby
-sudo service postfix restart
+sudo systemctl restart postfix
 ```
 9. Realize um teste enviando um e-mail do Gmail. Utilize o comando sendmail para enviar um e-mail de teste com o seguinte conteúdo:
 ```ruby
